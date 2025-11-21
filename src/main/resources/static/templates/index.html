@@ -1,34 +1,29 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>springboot-demo</artifactId>
-    <version>1.0.0</version>
-    <packaging>jar</packaging>
-
-    <name>springboot-demo</name>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
-    </parent>
-
-    <dependencies>
-        <!-- Web dependency -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- Thymeleaf template engine -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-    </dependencies>
-
-</project>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot CI/CD Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>Spring boot Java application using Maven</h1>
+<p>Application deployed on Kubernetes using <a href="https://argo-cd.readthedocs.io/ [argo-cd.readthedocs.io]">Argo CD</a></p>
+</body>
+</html>
